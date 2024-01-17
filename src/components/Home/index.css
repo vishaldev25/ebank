@@ -1,0 +1,50 @@
+.home-container {
+  background-color: #152850;
+  min-height: 100vh;
+  padding: 20px;
+}
+.home {
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+}
+.website-logo {
+  width: 80px;
+  height: 80px;
+}
+.logout-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logout-button {
+  padding: 10px;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: transparent;
+  border-radius: 8px;
+  border: 1px solid #ffffff;
+}
+.digital-card-container {
+  text-align: center;
+  margin-top: 50px;
+}
+.digital-card {
+  width: 100%;
+}
+.digital-heading {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 28px;
+}
+
+@media screen and (min-width: 768px) {
+  .digital-card {
+    width: 50%;
+  }
+  .digital-heading {
+    font-size: 40px;
+  }
+}
